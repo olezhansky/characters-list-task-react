@@ -1,3 +1,11 @@
 .Button {
-    cursor: pointer;
+  cursor: pointer;
+  background-color: lightblue;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
 }

@@ -1,10 +1,8 @@
-import CharactersContainer from "./containers/CharactersContainer/CharactersContainer";
+import CharactersContainer from './containers/CharactersContainer/CharactersContainer';
 
 function App() {
-
   return (
-    <div className="App">
-      <h2>Hello React</h2>
+    <div className='App'>
       <CharactersContainer />
     </div>
   );
