@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/characters-star-wars-react/static/css/main.463aafee.chunk.css",
+    "main.js": "/characters-star-wars-react/static/js/main.b46bc008.chunk.js",
+    "main.js.map": "/characters-star-wars-react/static/js/main.b46bc008.chunk.js.map",
+    "runtime-main.js": "/characters-star-wars-react/static/js/runtime-main.e575a18f.js",
+    "runtime-main.js.map": "/characters-star-wars-react/static/js/runtime-main.e575a18f.js.map",
+    "static/js/2.ccc00d99.chunk.js": "/characters-star-wars-react/static/js/2.ccc00d99.chunk.js",
+    "static/js/2.ccc00d99.chunk.js.map": "/characters-star-wars-react/static/js/2.ccc00d99.chunk.js.map",
+    "static/js/3.98a23f74.chunk.js": "/characters-star-wars-react/static/js/3.98a23f74.chunk.js",
+    "static/js/3.98a23f74.chunk.js.map": "/characters-star-wars-react/static/js/3.98a23f74.chunk.js.map",
+    "index.html": "/characters-star-wars-react/index.html",
+    "static/css/main.463aafee.chunk.css.map": "/characters-star-wars-react/static/css/main.463aafee.chunk.css.map",
+    "static/js/2.ccc00d99.chunk.js.LICENSE.txt": "/characters-star-wars-react/static/js/2.ccc00d99.chunk.js.LICENSE.txt",
+    "static/media/CharactersContainer.module.scss": "/characters-star-wars-react/static/media/background.e24cc0ae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e575a18f.js",
+    "static/js/2.ccc00d99.chunk.js",
+    "static/css/main.463aafee.chunk.css",
+    "static/js/main.b46bc008.chunk.js"
+  ]
+}
