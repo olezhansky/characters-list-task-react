@@ -18,7 +18,7 @@ const CharactersContainer = () => {
     return (
         <div className={styles.Wrapper}>
             <div className={styles.Container}>
-                <h2 className={styles.Title}>Characters</h2>
+                <h2 className={styles.Title}>Star Wars characters</h2>
                 {characters.length ? ( <ul className={styles.List}>
                     {characters.map((character, index) => {
                         return <Character key={index} character={character}/>
