@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Button from '../UI/Button/Button';
+import PropTypes from 'prop-types';
 import styles from './Form.module.scss';
+
 
 const Form = ({sendComment}) => {
 
@@ -19,7 +21,7 @@ const Form = ({sendComment}) => {
     }
 
     return (
-        <form onSubmit={(e) => onSubmitHandle(e)}>
+        <form onSubmit={(e) => onSubmitHandle(e)} className={styles.Form}>
             <input  
                 onChange={(e) => handleChangeValue(e)}
                 value={value}
@@ -31,6 +33,10 @@ const Form = ({sendComment}) => {
             </div>
         </form>
     )
+}
+
+Form.protTypes = {
+    sendComment: PropTypes.func
 }
 
 export default Form;

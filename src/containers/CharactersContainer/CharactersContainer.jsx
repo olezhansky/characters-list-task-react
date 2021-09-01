@@ -10,19 +10,21 @@ const CharactersContainer = () => {
     const characters = useSelector((state) => state.characters);
 
     const dispatch = useDispatch();
+
     useEffect(() => {
       dispatch(getCharactersAction());
     }, [dispatch])
-
+    
     return (
         <div className={styles.Wrapper}>
-            <h2 className={styles.Title}>Characters List</h2>
-            {characters.length ? ( <ul className={styles.List}>
-                {characters.map((character, index) => {
-                    console.log(character.created);
-                    return <Character key={character.created} character={character}/>
-                })}
-            </ul>) : <div className={styles.Loader}><Loader /></div>}
+            <div className={styles.Container}>
+                <h2 className={styles.Title}>Characters</h2>
+                {characters.length ? ( <ul className={styles.List}>
+                    {characters.map((character, index) => {
+                        return <Character key={index} character={character}/>
+                    })}
+                </ul>) : <div className={styles.Loader}><Loader /></div>}
+            </div>
         </div>
     )
 }

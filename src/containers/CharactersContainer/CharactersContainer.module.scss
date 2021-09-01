@@ -1,16 +1,31 @@
 .Wrapper {
-    width: 500px;
-    min-height: 300px;
-    margin: 100px auto;
-    background-color: lightblue;
-    position: relative;
+  background-image: url('../../assets/img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 100vh;
+}
+.Container {
+  width: 500px;
+  min-height: 100vh;
+  position: relative;
+  margin-right: 0px;
+  box-shadow: 0px 5px 5px 5px red;
 }
 .Title {
-    text-align: center;
+  text-align: center;
+  margin: 50px 0;
+  font-size: 44px;
+  line-height: 48px;
+  font-weight: 700;
+  color: rgb(44, 44, 230);
+  letter-spacing: 1.5px;
 }
 .Loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

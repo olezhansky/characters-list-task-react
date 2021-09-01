@@ -1,4 +1,5 @@
 import CharactersContainer from './containers/CharactersContainer/CharactersContainer';
+import './index.scss';
 
 function App() {
   return (

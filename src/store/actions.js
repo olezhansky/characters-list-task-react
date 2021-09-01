@@ -1,5 +1,5 @@
 import getCharacters from "../api/getCharacters";
-import { SET_CHARACTERS } from "./types";
+import { ADD_COMMENT, SET_CHARACTERS } from "./types";
 
 export function getCharactersAction() {
     return function (dispatch) {
@@ -8,3 +8,8 @@ export function getCharactersAction() {
         });
     };
 }
+
+export const addCommentAction = (character, value) => ({
+    type: ADD_COMMENT,
+    payload: {character, value}
+})
